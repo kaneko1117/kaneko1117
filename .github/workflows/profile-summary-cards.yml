@@ -19,8 +19,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.PROFILE_SECRETS }}
         with:
           USERNAME: ${{ github.repository_owner }}
-      - uses: kawamataryo/lapras-card-readme@main
-        with:
-          SHARE_ID: "kaneko1117"
-          UPDATE_TIME: "false"
-          LANG: "en"
